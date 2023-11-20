@@ -1,0 +1,202 @@
+[
+  {
+    "username": "john_doe",
+    "email": "john.doe@email.com",
+    "password": "securepassword1",
+    "dateCreated": "2023-01-01",
+    "type": "user",
+    "gender": "male",
+    "status": "active",
+    "birthdate": "1988-05-25"
+  },
+  {
+    "username": "jane_smith",
+    "email": "jane.smith@email.com",
+    "password": "strongpassword2",
+    "dateCreated": "2023-01-02",
+    "type": "admin",
+    "gender": "female",
+    "status": "inactive",
+    "birthdate": "1992-09-12"
+  },
+  {
+    "username": "alex_miller",
+    "email": "alex.miller@email.com",
+    "password": "password123",
+    "dateCreated": "2023-01-03",
+    "type": "moderator",
+    "gender": "non-binary",
+    "status": "pending",
+    "birthdate": "1985-03-18"
+  },
+  {
+    "username": "alice_jones",
+    "email": "alice.jones@email.com",
+    "password": "securepassword123",
+    "dateCreated": "2023-01-01",
+    "type": "user",
+    "gender": "female",
+    "status": "active",
+    "birthdate": "1990-12-15"
+  },
+  {
+    "username": "bob_smith",
+    "email": "bob.smith@email.com",
+    "password": "strongpass456",
+    "dateCreated": "2023-02-05",
+    "type": "admin",
+    "gender": "male",
+    "status": "inactive",
+    "birthdate": "1983-07-22"
+  },
+  {
+    "username": "charlie_davis",
+    "email": "charlie.davis@email.com",
+    "password": "password789",
+    "dateCreated": "2023-03-10",
+    "type": "moderator",
+    "gender": "non-binary",
+    "status": "pending",
+    "birthdate": "1995-04-28"
+  },
+  {
+    "username": "emma_watson",
+    "email": "emma.watson@email.com",
+    "password": "securepass789",
+    "dateCreated": "2023-04-01",
+    "type": "user",
+    "gender": "female",
+    "status": "active",
+    "birthdate": "1989-04-15"
+  },
+  {
+    "username": "david_miller",
+    "email": "david.miller@email.com",
+    "password": "strongpass999",
+    "dateCreated": "2023-05-12",
+    "type": "admin",
+    "gender": "male",
+    "status": "inactive",
+    "birthdate": "1980-11-02"
+  },
+  {
+    "username": "olivia_taylor",
+    "email": "olivia.taylor@email.com",
+    "password": "password246",
+    "dateCreated": "2023-06-20",
+    "type": "moderator",
+    "gender": "female",
+    "status": "pending",
+    "birthdate": "1993-08-28"
+  },
+  {
+    "username": "william_jackson",
+    "email": "william.jackson@email.com",
+    "password": "securepass111",
+    "dateCreated": "2023-07-01",
+    "type": "user",
+    "gender": "male",
+    "status": "active",
+    "birthdate": "1987-09-25"
+  },
+  {
+    "username": "sophia_rodriguez",
+    "email": "sophia.rodriguez@email.com",
+    "password": "strongpass222",
+    "dateCreated": "2023-08-12",
+    "type": "admin",
+    "gender": "female",
+    "status": "inactive",
+    "birthdate": "1991-12-10"
+  },
+  {
+    "username": "ethan_morris",
+    "email": "ethan.morris@email.com",
+    "password": "password333",
+    "dateCreated": "2023-09-20",
+    "type": "moderator",
+    "gender": "male",
+    "status": "pending",
+    "birthdate": "1984-06-15"
+  },
+  {
+    "username": "ava_campbell",
+    "email": "ava.campbell@email.com",
+    "password": "securepass444",
+    "dateCreated": "2023-10-05",
+    "type": "user",
+    "gender": "female",
+    "status": "active",
+    "birthdate": "1994-03-18"
+  },
+  {
+    "username": "noah_anderson",
+    "email": "noah.anderson@email.com",
+    "password": "strongpass555",
+    "dateCreated": "2023-11-15",
+    "type": "admin",
+    "gender": "male",
+    "status": "inactive",
+    "birthdate": "1982-08-22"
+  },
+  {
+    "username": "mia_clark",
+    "email": "mia.clark@email.com",
+    "password": "securepass666",
+    "dateCreated": "2023-12-01",
+    "type": "user",
+    "gender": "female",
+    "status": "active",
+    "birthdate": "1986-11-30"
+  },
+  {
+    "username": "liam_hernandez",
+    "email": "liam.hernandez@email.com",
+    "password": "strongpass777",
+    "dateCreated": "2023-12-12",
+    "type": "admin",
+    "gender": "male",
+    "status": "inactive",
+    "birthdate": "1990-05-12"
+  },
+  {
+    "username": "amelia_cooper",
+    "email": "amelia.cooper@email.com",
+    "password": "password888",
+    "dateCreated": "2024-01-20",
+    "type": "moderator",
+    "gender": "female",
+    "status": "pending",
+    "birthdate": "1983-09-22"
+  },
+  {
+    "username": "logan_fisher",
+    "email": "logan.fisher@email.com",
+    "password": "securepass999",
+    "dateCreated": "2024-02-05",
+    "type": "user",
+    "gender": "male",
+    "status": "active",
+    "birthdate": "1995-06-18"
+  },
+  {
+    "username": "harper_watkins",
+    "email": "harper.watkins@email.com",
+    "password": "strongpass000",
+    "dateCreated": "2024-03-15",
+    "type": "admin",
+    "gender": "female",
+    "status": "inactive",
+    "birthdate": "1981-04-28"
+  },
+  {
+    "username": "aiden_campbell",
+    "email": "aiden.campbell@email.com",
+    "password": "password111",
+    "dateCreated": "2024-04-10",
+    "type": "moderator",
+    "gender": "male",
+    "status": "pending",
+    "birthdate": "1993-02-15"
+  }
+]

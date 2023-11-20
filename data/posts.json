@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "categorization": ["Animaux", "Chats"],
+    "title": "Les Félins Fascinants",
+    "content": "Les félins sont des prédateurs gracieux et mystérieux qui captivent l'imaginaire depuis des millénaires. Leur agilité et leur instinct de chasse sont impressionnants. Les chats domestiques partagent de nombreux traits avec leurs cousins sauvages, même s'ils ont adopté une vie aux côtés des humains. Apprendre à comprendre et à répondre aux besoins de ces félins fascinants est une aventure enrichissante.",
+    "createdAt": "2023-09-16T10:00:00Z",
+    "createdBy": "CatLover123",
+    "comments": [
+      {
+        "id": 101,
+        "content": "J'adore observer les félins dans la nature.",
+        "createdAt": "2023-09-17T10:30:00Z",
+        "createdBy": "NatureWatcher"
+      },
+      {
+        "id": 102,
+        "content": "Mon chat adore chasser les jouets!",
+        "createdAt": "2023-09-17T11:15:00Z",
+        "createdBy": "PlayfulPaws"
+      },
+      {
+        "id": 103,
+        "content": "Comment puis-je aider un chat errant?",
+        "createdAt": "2023-09-18T12:05:00Z",
+        "createdBy": "KindHeart"
+      }
+    ],
+    "tags": ["Comportement", "Prédateurs", "Domestication"]
+  },
+  {
+    "id": 2,
+    "categorization": ["Animaux", "Chats"],
+    "title": "L'Art de la Communication Féline",
+    "content": "La communication des chats est un langage subtil, composé de gestes, de vocalisations et de signaux olfactifs. Comprendre ces signaux permet de renforcer le lien entre humains et chats. Le ronronnement exprime souvent le contentement, tandis que le pétrissage des pattes est une manifestation d'affection. Observer et répondre à ces signaux renforce la relation unique que nous partageons avec nos amis félins.",
+    "createdAt": "2023-01-02T09:30:00Z",
+    "createdBy": "CatWhisperer",
+    "comments": [
+      {
+        "id": 201,
+        "content": "Les chats ont vraiment leur propre langage!",
+        "createdAt": "2023-03-21T10:00:00Z",
+        "createdBy": "LanguageLover"
+      },
+      {
+        "id": 202,
+        "content": "Mon chat a un ronronnement si apaisant.",
+        "createdAt": "2023-04-01T11:20:00Z",
+        "createdBy": "ZenMaster"
+      }
+    ],
+    "tags": ["Communication", "Langage Corporel", "Ronronnement"]
+  },
+  {
+    "id": 3,
+    "categorization": ["Animaux", "Chiens"],
+    "title": "Les Compagnons Canins",
+    "content": "Les chiens sont depuis longtemps nos fidèles compagnons. Leur loyauté et leur dévouement en font des membres à part entière de nos familles. Chaque race de chien possède ses caractéristiques uniques, du loyal Labrador au courageux Berger Allemand. Élever et prendre soin d'un chien demande du temps et de l'engagement, mais les récompenses d'une amitié canine sont inestimables.",
+    "createdAt": "2023-09-22T14:45:00Z",
+    "createdBy": "DogLover456",
+    "comments": [
+      {
+        "id": 301,
+        "content": "Mon chien est mon meilleur ami!",
+        "createdAt": "2023-09-22T15:10:00Z",
+        "createdBy": "BestBuddy"
+      },
+      {
+        "id": 302,
+        "content": "Les chiens apportent tellement de joie dans nos vies.",
+        "createdAt": "2023-09-22T16:25:00Z",
+        "createdBy": "JoyfulLife"
+      }
+    ],
+    "tags": ["Loyauté", "Race de Chien", "Famille"]
+  },
+  {
+    "id": 4,
+    "categorization": ["Animaux", "Chats"],
+    "title": "Les Chats et Leur Influence Historique",
+    "content": "Les chats ont joué des rôles variés dans l'histoire humaine. De protecteurs des réserves de grains en Égypte ancienne à leurs associations avec la sorcellerie au Moyen Âge, leur influence est évidente. Aujourd'hui, les chats continuent d'être des compagnons appréciés et des icônes de grâce et d'indépendance.",
+    "createdAt": "2023-09-23T13:20:00Z",
+    "createdBy": "HistoryBuff",
+    "comments": [
+      {
+        "id": 401,
+        "content": "L'histoire des chats est vraiment fascinante.",
+        "createdAt": "2023-09-23T14:00:00Z",
+        "createdBy": "CuriousMind"
+      },
+      {
+        "id": 402,
+        "content": "Mon chat a vraiment son propre charme!",
+        "createdAt": "2023-09-23T15:15:00Z",
+        "createdBy": "CharmingCat"
+      }
+    ],
+    "tags": ["Histoire", "Influence Culturelle", "Compagnons de l'Homme"]
+  },
+  {
+    "id": 5,
+    "categorization": ["Animaux", "Chiens"],
+    "title": "Les Chiens et Leur Rôle dans les Opérations de Secours",
+    "content": "Les chiens ont des capacités olfactives exceptionnelles qui les rendent indispensables dans les opérations de secours. Les chiens de recherche et de sauvetage sont formés pour localiser des personnes ensevelies sous les décombres, fournissant ainsi un espoir dans les situations d'urgence. Leur dévouement et leur sens du devoir les rendent véritablement héroïques.",
+    "createdAt": "2023-09-24T11:50:00Z",
+    "createdBy": "RescueHero",
+    "comments": [
+      {
+        "id": 501,
+        "content": "Les chiens de secours sont de véritables héros!",
+        "createdAt": "2023-09-24T12:30:00Z",
+        "createdBy": "GratefulHeart"
+      }
+    ],
+    "tags": ["Sauvetage", "Chiens de Travail", "Héros à Quatre Pattes"]
+  },
+  {
+    "id": 6,
+    "categorization": ["Animaux", "Chats"],
+    "title": "Les Soins Essentiels pour un Chat Heureux",
+    "content": "Pour garantir le bonheur et le bien-être de votre chat, il est essentiel de lui fournir une alimentation équilibrée, des exercices réguliers et des visites chez le vétérinaire. L'attention et l'affection que vous lui offrez renforcent votre relation. Offrez-lui un environnement stimulant avec des jouets et des espaces à explorer. Votre chat vous en sera reconnaissant!",
+    "createdAt": "2023-09-25T09:00:00Z",
+    "createdBy": "CatWellness",
+    "comments": [
+      {
+        "id": 601,
+        "content": "Mon chat adore son arbre à chat!",
+        "createdAt": "2023-09-25T09:30:00Z",
+        "createdBy": "TreeClimber"
+      },
+      {
+        "id": 602,
+        "content": "Quel type de jouet recommandez-vous?",
+        "createdAt": "2023-09-25T10:15:00Z",
+        "createdBy": "ToyEnthusiast"
+      }
+    ],
+    "tags": ["Soins du Chat", "Alimentation Équilibrée", "Exercices"]
+  },
+  {
+    "id": 7,
+    "categorization": ["Animaux", "Chiens"],
+    "title": "Les Jeux et les Chiens : Créer des Moments Inoubliables",
+    "content": "Les jeux sont un moyen merveilleux de renforcer le lien avec votre chien et de lui offrir une stimulation mentale et physique. Que ce soit une partie de lancer de balle enthousiaste ou un jeu de recherche d'objets, ces moments de jeu sont précieux pour votre fidèle ami.",
+    "createdAt": "2023-09-26T14:30:00Z",
+    "createdBy": "PlayfulPooch",
+    "comments": [
+      {
+        "id": 701,
+        "content": "Mon chien adore jouer à la balle!",
+        "createdAt": "2023-09-26T15:00:00Z",
+        "createdBy": "BallFetchMaster"
+      },
+      {
+        "id": 702,
+        "content": "Les jeux sont une excellente façon de dépenser de l'énergie.",
+        "createdAt": "2023-09-26T16:10:00Z",
+        "createdBy": "EnergyBurner"
+      }
+    ],
+    "tags": [
+      "Jeux pour Chiens",
+      "Stimulation Mentale",
+      "Activités en Plein Air"
+    ]
+  },
+  {
+    "id": 7,
+    "categorization": ["Animaux", "Chiens"],
+    "title": "Les Jeux et les Chiens : Créer des Moments Inoubliables",
+    "content": "Les jeux sont un moyen merveilleux de renforcer le lien avec votre chien et de lui offrir une stimulation mentale et physique. Que ce soit une partie de lancer de balle enthousiaste ou un jeu de recherche d'objets, ces moments de jeu sont précieux pour votre fidèle ami.",
+    "createdAt": "2023-09-26T14:30:00Z",
+    "createdBy": "PlayfulPooch",
+    "comments": [
+      {
+        "id": 701,
+        "content": "Mon chien adore jouer à la balle!",
+        "createdAt": "2023-09-26T15:00:00Z",
+        "createdBy": "BallFetchMaster"
+      },
+      {
+        "id": 702,
+        "content": "Les jeux sont une excellente façon de dépenser de l'énergie.",
+        "createdAt": "2023-09-26T16:10:00Z",
+        "createdBy": "EnergyBurner"
+      }
+    ],
+    "tags": [
+      "Jeux pour Chiens",
+      "Stimulation Mentale",
+      "Activités en Plein Air"
+    ]
+  },
+  {
+    "title": "Les Chats: Amis Fidèles",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tristique leo, vel hendrerit ante.",
+    "comments": [
+      { "content": "J'adore les chats!" },
+      { "content": "Cet article est très informatif." },
+      { "content": "Les chats sont vraiment adorables." }
+    ]
+  },
+  {
+    "title": "Les Chiens: Compagnons Loyaux",
+    "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "comments": [
+      { "content": "Les chiens sont les meilleurs amis de l'homme." },
+      { "content": "J'ai un chien et il est incroyable!" },
+      { "content": "Les chiens apportent tant de joie dans nos vies." }
+    ]
+  },
+  {
+    "title": "Adopter un Chat: Ce qu'il Faut Savoir",
+    "content": "Curabitur scelerisque erat vel justo volutpat, vel euismod ligula posuere. Nullam tristique cursus mi.",
+    "comments": [
+      { "content": "J'ai adopté un chat récemment, et il est adorable." },
+      { "content": "Merci pour les conseils sur l'adoption des chats." },
+      { "content": "Les chats de refuge méritent une seconde chance." }
+    ]
+  },
+  {
+    "title": "Les Races de Chiens Populaires en France",
+    "content": "Vestibulum ullamcorper quam nec semper cursus. Nullam efficitur velit eget efficitur vestibulum.",
+    "comments": [
+      { "content": "Mon préféré est le Labrador Retriever." },
+      { "content": "Les bergers allemands sont si intelligents!" },
+      {
+        "content": "Les chiens de petite taille ont aussi beaucoup de personnalité."
+      }
+    ]
+  },
+  {
+    "title": "Conseils pour un Salon sans Poils avec des Animaux",
+    "content": "Fusce tincidunt justo vel odio tristique euismod. Quisque in lectus ut eros facilisis sagittis.",
+    "comments": [
+      {
+        "content": "Gérer les poils d'animaux est un défi, merci pour les conseils."
+      },
+      {
+        "content": "Aspirateurs spécialisés pour animaux, ça fonctionne bien!"
+      },
+      {
+        "content": "La brosse Furminator est une vie changer pour les propriétaires d'animaux."
+      }
+    ]
+  },
+  {
+    "title": "Les Chatons: Mignons et Pleins de Vie",
+    "content": "Suspendisse potenti. Aliquam venenatis tincidunt orci, nec venenatis ex fringilla quis.",
+    "comments": [
+      { "content": "Les chatons sont trop mignons, j'en veux un!" },
+      {
+        "content": "Mon chaton est si énergique, comment gérer toute cette énergie?"
+      },
+      { "content": "Les chatons sont tellement joueurs, c'est adorable." }
+    ]
+  },
+  {
+    "title": "Voyager avec son Chien: Conseils Pratiques",
+    "content": "Integer gravida consectetur velit, at tincidunt purus bibendum a. Fusce hendrerit odio vel lorem tempus.",
+    "comments": [
+      { "content": "Voyager avec mon chien est toujours une aventure!" },
+      { "content": "Les hôtels accueillant les animaux sont un must." },
+      {
+        "content": "Les chiens aiment les voyages en voiture, surtout la tête par la fenêtre!"
+      }
+    ]
+  },
+  {
+    "title": "Les Chats et les Plantes d'Intérieur: Une Coexistence Possible?",
+    "content": "Duis ultricies, arcu vel efficitur rhoncus, augue quam gravida enim, eu tincidunt libero justo nec sem.",
+    "comments": [
+      { "content": "Mon chat aime grignoter mes plantes, des conseils?" },
+      {
+        "content": "Les herbes à chat sont une excellente alternative aux plantes d'intérieur."
+      },
+      {
+        "content": "Les chats et les plantes peuvent coexister avec quelques ajustements."
+      }
+    ]
+  },
+  {
+    "title": "Les Chiens de Travail: Plus que des Animaux de Compagnie",
+    "content": "Maecenas nec justo id quam posuere cursus eget a turpis. Ut sit amet odio non dolor consequat efficitur.",
+    "comments": [
+      {
+        "content": "Les chiens de travail sont incroyablement intelligents et dévoués."
+      },
+      {
+        "content": "Les chiens de thérapie apportent du réconfort aux gens dans le besoin."
+      },
+      {
+        "content": "Les chiens de recherche et de sauvetage sont de véritables héros."
+      }
+    ]
+  },
+  {
+    "title": "Gérer les Allergies aux Animaux: Conseils Utiles",
+    "content": "Nam auctor erat at justo congue, ut finibus tortor aliquet. Sed ac neque at sem vehicula finibus.",
+    "comments": [
+      {
+        "content": "Les allergies aux animaux peuvent être difficiles à gérer, merci pour les conseils."
+      },
+      {
+        "content": "Les races hypoallergéniques sont-elles vraiment efficaces?"
+      },
+      {
+        "content": "Les purificateurs d'air font une grande différence pour les allergies aux animaux."
+      }
+    ]
+  },
+  {
+    "title": "L'Importance des Jouets pour Chiens et Chats",
+    "content": "Proin fermentum velit id odio feugiat hendrerit. Vivamus nec augue sit amet velit cursus iaculis.",
+    "comments": [
+      {
+        "content": "Les jouets mentaux sont excellents pour occuper l'esprit de mon chien."
+      },
+      {
+        "content": "Les balles avec des cloches sont les jouets préférés de mon chat."
+      },
+      {
+        "content": "Les jouets interactifs aident à stimuler l'intelligence de nos animaux de compagnie."
+      }
+    ]
+  },
+  {
+    "title": "Les Chiens et l'Éducation Positive: Des Résultats Durables",
+    "content": "Morbi sit amet nisi nec libero auctor convallis. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
+    "comments": [
+      {
+        "content": "L'éducation positive a transformé le comportement de mon chien."
+      },
+      {
+        "content": "Récompenser les bons comportements fonctionne mieux que la punition."
+      },
+      {
+        "content": "Les cours d'obéissance sont essentiels pour une relation harmonieuse avec son chien."
+      }
+    ]
+  },
+  {
+    "title": "Chat vs Chien: Quel Animal de Compagnie Choisir?",
+    "content": "Donec vitae hendrerit odio, in malesuada lacus. Quisque tristique libero ut augue pharetra, ut fringilla dolor varius.",
+    "comments": [
+      {
+        "content": "J'adore les chiens, mais les chats sont plus indépendants."
+      },
+      { "content": "Les chiens sont parfaits pour les personnes actives." },
+      {
+        "content": "La personnalité de l'animal doit correspondre à celle du propriétaire."
+      }
+    ]
+  },
+  {
+    "title": "La Toilette des Chiens et Chats: Conseils et Astuces",
+    "content": "Aenean quis massa eu elit bibendum hendrerit eu vitae urna. Maecenas eu metus a augue varius ullamcorper.",
+    "comments": [
+      {
+        "content": "La toilette régulière est importante pour la santé de la peau de mon chien."
+      },
+      { "content": "Mon chat déteste l'eau, comment le laver efficacement?" },
+      {
+        "content": "Les brosses à dents pour chiens sont un must pour une bonne hygiène bucco-dentaire."
+      }
+    ]
+  },
+  {
+    "title": "Les Chiens de Garde: Sécurité et Compagnie",
+    "content": "Phasellus at neque nec odio consequat dictum. Suspendisse feugiat, nisl eget accumsan fringilla, odio arcu accumsan dui, vel cursus metus lectus in arcu.",
+    "comments": [
+      { "content": "Les chiens de garde offrent une protection précieuse." },
+      {
+        "content": "La socialisation est importante même pour les chiens de garde."
+      },
+      { "content": "Mon chien de garde est aussi mon meilleur ami." }
+    ]
+  },
+  {
+    "title": "Les Chats et les Boîtes: Une Relation Mystérieuse",
+    "content": "Curabitur sed venenatis eros. Sed malesuada, ex non aliquam tincidunt, leo dolor tincidunt dolor, a tincidunt est velit vel arcu.",
+    "comments": [
+      { "content": "Pourquoi les chats aiment-ils tant les boîtes?" },
+      {
+        "content": "Les boîtes fournissent un refuge sécurisant pour les chats."
+      },
+      {
+        "content": "C'est toujours amusant de voir mon chat jouer dans une boîte."
+      }
+    ]
+  },
+  {
+    "title": "Les Races de Chats Idéales pour les Appartements",
+    "content": "Sed sollicitudin risus sed dapibus tincidunt. Vestibulum consequat, sapien vel commodo auctor, velit odio elementum odio, vel luctus purus libero vel urna.",
+    "comments": [
+      {
+        "content": "Les chats de race orientale sont parfaits pour les appartements."
+      },
+      {
+        "content": "Les chats persans sont si élégants, même dans un petit espace."
+      },
+      {
+        "content": "Les chats domestiques peuvent également s'adapter bien à la vie en appartement."
+      }
+    ]
+  },
+  {
+    "title": "Les Chiens et les Enfants: Construire une Amitié Saine",
+    "content": "Praesent vitae eros vel erat euismod convallis. Ut sit amet nisi non tortor cursus consectetur vel quis erat.",
+    "comments": [
+      {
+        "content": "Les chiens sont d'excellents compagnons pour les enfants."
+      },
+      {
+        "content": "La supervision est essentielle lors des interactions entre chiens et enfants."
+      },
+      {
+        "content": "Mon chien adore jouer avec mes enfants, c'est adorable à voir."
+      }
+    ]
+  },
+  {
+    "title": "Les Chats et les Rituels Nocturnes: Comprendre leur Comportement",
+    "content": "Nulla facilisi. Maecenas gravida libero et mauris cursus, non pellentesque elit tincidunt. Fusce in risus et orci ullamcorper tincidunt vel ac ligula.",
+    "comments": [
+      { "content": "Mon chat aime miauler la nuit, que puis-je faire?" },
+      {
+        "content": "Les rituels nocturnes des chats sont normaux, cela fait partie de leur nature."
+      },
+      {
+        "content": "Un jouet interactif peut aider à divertir mon chat pendant la nuit."
+      }
+    ]
+  },
+  {
+    "title": "Les Chiens et l'Été: Précautions à Prendre",
+    "content": "Vivamus nec turpis tristique, lacinia odio vel, scelerisque neque. Suspendisse potenti. Praesent malesuada fringilla nisi, vel euismod turpis efficitur ac.",
+    "comments": [
+      {
+        "content": "Les chiens peuvent souffrir de la chaleur, assurez-vous de les hydrater."
+      },
+      {
+        "content": "Les balades matinales sont meilleures pendant les jours chauds."
+      },
+      {
+        "content": "Les chiens adorent aussi se rafraîchir dans une piscine pour enfants!"
+      }
+    ]
+  }
+]
