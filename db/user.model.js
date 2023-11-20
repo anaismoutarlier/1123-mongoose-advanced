@@ -11,6 +11,7 @@ const UserSchema = mongoose.Schema(
       required: true,
       unique: true,
       index: true,
+      trim: true,
     },
     email: {
       type: String,
@@ -18,6 +19,7 @@ const UserSchema = mongoose.Schema(
       unique: true,
       index: true,
       select: false,
+      trim: true,
       validate: {
         validator: val => EMAIL_REGEX.test(val),
         message: ({ value }) => `${value} is not a valid email address.`,
@@ -52,6 +54,27 @@ const UserSchema = mongoose.Schema(
   }
 );
 
+UserSchema.pre("deleteOne", async function (next) {
+  const filter = this.getFilter();
+  await mongoose.model("posts").deleteMany({ user: filter._id });
+  await mongoose
+    .model("posts")
+    .updateMany(
+      { "comments.user": filter._id },
+      { $pull: { comments: { user: filter._id } } }
+    );
+  next();
+});
+
+UserSchema.post("save", async function (doc) {
+  await mongoose.model("posts").create({
+    title: `${doc.username}, welcome to Posts.io !`,
+    content:
+      "This is your first post! Click on the plus to add your own content.",
+    user: doc._id,
+  });
+});
+
 UserSchema.virtual("age").get(function () {
   // this.birthdate
   return moment().diff(this.birthdate, "years");
@@ -74,6 +97,57 @@ UserSchema.loadClass(
     static findOnePrivate(filter, fields = ["password"]) {
       const select = fields.map(field => `+${field}`).join(" ");
       return this.findOne(filter).select(select);
+    }
+
+    static getUserInscriptionStats() {
+      const query = [
+        {
+          $addFields: {
+            year: {
+              $year: "$dateCreated",
+            },
+            month: {
+              $month: "$dateCreated",
+            },
+          },
+        },
+        {
+          $group: {
+            _id: {
+              year: "$year",
+              month: "$month",
+            },
+            users: {
+              $push: {
+                _id: "$_id",
+                username: "$username",
+              },
+            },
+          },
+        },
+        {
+          $sort: {
+            "_id.year": 1,
+            "_id.month": 1,
+          },
+        },
+        {
+          $project: {
+            year: "$_id.year",
+            month: "$_id.month",
+            _id: 0,
+            nbUsers: {
+              $size: "$users",
+            },
+          },
+        },
+        {
+          $sort: {
+            nbUsers: -1,
+          },
+        },
+      ];
+      return this.aggregate(query);
     }
   }
 );
