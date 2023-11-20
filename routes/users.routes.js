@@ -33,4 +33,10 @@ router.get("/stats/inscriptions", async (_, res) => {
   res.json({ result: true, data });
 });
 
+router.get("/stats/demographics", async (_, res) => {
+  const data = await User.getUserDemographics();
+
+  res.json({ result: true, data });
+});
+
 module.exports = router;

@@ -56,6 +56,7 @@ const UserSchema = mongoose.Schema(
 
 UserSchema.pre("deleteOne", async function (next) {
   const filter = this.getFilter();
+  if (!filter._id) throw "Users must be deleted via their ObjectId."; // Aucune suppréssion via d'autres propriétés, sinon la suppréssion des posts ne fonctionnera pas!
   await mongoose.model("posts").deleteMany({ user: filter._id });
   await mongoose
     .model("posts")
@@ -147,6 +148,87 @@ UserSchema.loadClass(
           },
         },
       ];
+      return this.aggregate(query);
+    }
+
+    static getUserDemographics() {
+      const currentYear = new Date().getFullYear();
+      const query = [
+        {
+          $match: {
+            status: "active",
+          },
+        },
+        {
+          $addFields: {
+            ageGroup: {
+              $round: {
+                $divide: [
+                  {
+                    $subtract: [
+                      currentYear,
+                      {
+                        $year: "$birthdate",
+                      },
+                    ],
+                  },
+                  10,
+                ],
+              },
+            },
+          },
+        },
+        {
+          $group: {
+            _id: {
+              gender: "$gender",
+              ageGroup: "$ageGroup",
+            },
+            users: {
+              $push: {
+                _id: "$_id",
+                username: "$username",
+              },
+            },
+          },
+        },
+        {
+          $addFields: {
+            count: {
+              $size: "$users",
+            },
+          },
+        },
+        {
+          $group: {
+            _id: "$_id.gender",
+            ageGroups: {
+              $push: {
+                group: "$_id.ageGroup",
+                users: "$users",
+                count: "$count",
+              },
+            },
+            totalCount: {
+              $sum: "$count",
+            },
+          },
+        },
+        {
+          $sort: {
+            count: -1,
+          },
+        },
+        {
+          $project: {
+            ageGroups: 1,
+            totalCount: 1,
+            demographic: "$_id",
+            _id: 0,
+          },
+        },
+      ];
+
       return this.aggregate(query);
     }
   }
